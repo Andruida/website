@@ -1,38 +1,100 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+
+:root{
+  --background_grey: #292c34;
+  --dark_grey: #21252b;
+  --purple: #c578c8;
+  --green: #99c379;
+  --blue: #61afef;
+}
+
+.profile_picture {
+  border-radius: 50%;
+  float: left;
+  width: 150px;
+  height: 150px;
+  border: 5px solid aliceblue;
+}
+
+.main_menu_dock {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Red Hat Mono', monospace;
+  color: var(--purple);
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.title_dock {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main_title {
+  font-family: 'Mochiy Pop One', sans-serif;
+  color: aliceblue;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main_title_no_center {
+  font-family: 'Mochiy Pop One', sans-serif;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 32px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.sub_title {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: medium;
+  color: aliceblue;
+  text-align: center;
+}
+
+.fade_in {
+  animation: fade_in ease 3s;
+}
+
+.pfp_animation {
+  animation: pfp_animation ease 1s;
+}
+
+.parallax {
+  background-image: url("./Images/parallaxtree.png");
+  min-height: 1500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+}
+
+.discord_widget {
+  border: 5px solid aliceblue;
+  border-radius: 10%;
+}
+
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes pfp_animation {
+  0% {
+    border-radius: 10%;
+    border: .1px solid aliceblue;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    border-radius: 50%;
+    border: 5px solid aliceblue;
   }
 }

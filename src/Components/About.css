@@ -1,0 +1,19 @@
+@import url("../App.css");
+
+:root {
+    --green: #99c379;
+    --blue: #61afef;
+}
+.about_title {
+    color: var(--blue);
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-align: center;
+}
+.description {
+    font-family: 'Red Hat Mono', monospace;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 15px;
+    color: var(--green);
+    text-align: center;
+}
