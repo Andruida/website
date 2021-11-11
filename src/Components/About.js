@@ -9,9 +9,9 @@ export default function About() {
   return (
     <div className="parallax">
       <div className="main_menu_dock">
-        <Link className="main_menu_dock" to="/">PROJEKTEK</Link>
         <Link className="main_menu_dock" to="/">FŐOLDAL</Link>
         <Link className="main_menu_dock" to="/about">RÓLAM</Link>
+        <Link className="main_menu_dock" to="/">PROJEKTEK</Link>
         <Link className="main_menu_dock" to="/">ELÉRHETŐSÉGEK</Link>
       </div>
     
