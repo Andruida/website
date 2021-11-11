@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tcgmilan_website/static/css/main.74e5c6a8.chunk.css",
+    "main.js": "/tcgmilan_website/static/js/main.d85284de.chunk.js",
+    "main.js.map": "/tcgmilan_website/static/js/main.d85284de.chunk.js.map",
+    "runtime-main.js": "/tcgmilan_website/static/js/runtime-main.ac804cd8.js",
+    "runtime-main.js.map": "/tcgmilan_website/static/js/runtime-main.ac804cd8.js.map",
+    "static/js/2.5d3439ee.chunk.js": "/tcgmilan_website/static/js/2.5d3439ee.chunk.js",
+    "static/js/2.5d3439ee.chunk.js.map": "/tcgmilan_website/static/js/2.5d3439ee.chunk.js.map",
+    "static/js/3.0b6e9248.chunk.js": "/tcgmilan_website/static/js/3.0b6e9248.chunk.js",
+    "static/js/3.0b6e9248.chunk.js.map": "/tcgmilan_website/static/js/3.0b6e9248.chunk.js.map",
+    "index.html": "/tcgmilan_website/index.html",
+    "precache-manifest.1291c5006ad3632fa9b726cd5670d445.js": "/tcgmilan_website/precache-manifest.1291c5006ad3632fa9b726cd5670d445.js",
+    "service-worker.js": "/tcgmilan_website/service-worker.js",
+    "static/css/main.74e5c6a8.chunk.css.map": "/tcgmilan_website/static/css/main.74e5c6a8.chunk.css.map",
+    "static/js/2.5d3439ee.chunk.js.LICENSE.txt": "/tcgmilan_website/static/js/2.5d3439ee.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/tcgmilan_website/static/media/parallaxtree.2c390c97.png",
+    "static/media/pfp.jpeg": "/tcgmilan_website/static/media/pfp.881f555e.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac804cd8.js",
+    "static/js/2.5d3439ee.chunk.js",
+    "static/css/main.74e5c6a8.chunk.css",
+    "static/js/main.d85284de.chunk.js"
+  ]
+}
