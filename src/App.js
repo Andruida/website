@@ -11,14 +11,14 @@ export default function App() {
       <div className="main_menu_dock">
         <Link className="fade_in main_menu_dock" to="/">FŐOLDAL</Link>
         <Link className="fade_in main_menu_dock" to="/about">RÓLAM</Link>
-        <Link className="fade_in main_menu_dock" to="/">PROJEKTEK</Link>
-        <Link className="fade_in main_menu_dock" to="/">ELÉRHETŐSÉGEK</Link>
+        <Link className="fade_in main_menu_dock" to="/projects">PROJEKTEK</Link>
+        <Link className="fade_in main_menu_dock" to="/contacts">ELÉRHETŐSÉGEK</Link>
       </div>
       <br></br>
       <div className="title_dock">
-        <img className="pfp_animation profile_picture" src={logo}></img>
+        <Link to="/"><img className="pfp_animation profile_picture" src={logo}></img></Link>
         <h1 className="fade_in main_title">Horváth Balázs Milán</h1>
-        <h3 className="fade_in sub_title">@tcgmilan</h3>
+        <h2 className="fade_in sub_title">@tcgmilan</h2>
       </div>
 
       <br></br>

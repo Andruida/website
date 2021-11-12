@@ -8,22 +8,22 @@ export default function About() {
   useEffect(() => {document.title = "@tcgmilan - rolam"})
   return (
     <div className="parallax">
-      <div className="main_menu_dock">
+      <div className="main_menu_dock fade_in">
         <Link className="main_menu_dock" to="/">FŐOLDAL</Link>
         <Link className="main_menu_dock" to="/about">RÓLAM</Link>
-        <Link className="main_menu_dock" to="/">PROJEKTEK</Link>
-        <Link className="main_menu_dock" to="/">ELÉRHETŐSÉGEK</Link>
+        <Link className="main_menu_dock" to="/projects">PROJEKTEK</Link>
+        <Link className="main_menu_dock" to="/contacts">ELÉRHETŐSÉGEK</Link>
       </div>
     
       <div className="title_dock">
-        <img className="pfp_animation profile_picture" src={logo}></img>
+        <Link to="/"><img className="pfp_animation profile_picture" src={logo}></img></Link>
         <h1 className="fade_in main_title">Horváth Balázs Milán</h1>
-        <h3 className="fade_in sub_title">@tcgmilan</h3>
+        <h2 className="fade_in sub_title">@tcgmilan</h2>
       </div>
 
       <div>
         <h1 className="about_title fade_in">ROLAM</h1>
-        <h3 className="description">
+        <h3 className="fade_in description">
   Sziasztok!<br></br>Horváth Balázs Milán vagyok, 17 éves!
   Jelenleg Somogy megyében élek, Nagyatádon, ahol az Ady Endre Gimnáziumban tanulok!
   Mikor elkezdtem tanulni programozást, nem voltam több 12 évesnél. A HTML nyelvet választottam, de sajnos 
@@ -33,7 +33,6 @@ export default function About() {
   Egy hónapnyi "szorgos" tanulás után, jelentkeztünk is egy versenyre. A verseny után, amit 3. helyezettként zártunk, 
   érdekelni kezdett több nyelv is. Megannyi próbálgatás után a C# és a Python mellett döntöttem. Idén már 3 éve tanulom a Python nyelvet, és eddig
   semmihez sem fogható élmélnyekben volt részem vele!
-
         </h3>
       </div>
   </div>

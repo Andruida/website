@@ -1,0 +1,55 @@
+@import url("../App.css");
+
+:root{
+    --background_grey: #292c34;
+    --dark_grey: #21252b;
+    --purple: #c578c8;
+    --green: #99c379;
+    --blue: #61afef;
+    --yellow: #d6b373;
+}
+
+.project {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.title {
+    color: var(--blue);
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Red Hat Mono', monospace;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 25px;
+    color: var(--green);
+    text-align: center;
+    text-decoration: none;
+}
+.links {
+    font-family: 'Red Hat Mono', monospace;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+    color: var(--yellow);
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+}
+.markdown {
+    background: var(--dark_grey);
+    border: 3px transparent;
+    margin: 0px auto;
+    color: aliceblue;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+h3:hover {
+    font-size: 25px;
+}

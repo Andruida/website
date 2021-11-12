@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import App from './App';
 import About from "./Components/About"
+import Projects from "./Components/Projects";
+import Contacts from "./Components/Contacts"
 
 const Routing = () =>{
   return(
@@ -13,6 +15,8 @@ const Routing = () =>{
       <Routes>
         <Route exact path="/" element={<App/>}></Route>
         <Route path="/about" element={<About/>}></Route>
+        <Route path="/projects" element={<Projects/>}></Route>
+        <Route path="/contacts" element={<Contacts/>}></Route>
       </Routes>
     </BrowserRouter>
   );
